@@ -1,9 +1,14 @@
+// añadir equipos y puntos
 const equipos = [
     {nombre:"🦈 98 Gang", puntos:0},
     {nombre:"🔪 69 Hardkors Gang", puntos:0},
     {nombre:"🍁 2BLEBETA", puntos:0},
     {nombre:"🧊 Do Bronx", puntos:0},
-    {nombre:"🤬 Peta", puntos:0}
+    {nombre:"🤬 Peta", puntos:0},
+    {nombre:"x", puntos:0},
+    {nombre:"x", puntos:0},
+    {nombre:"x", puntos:0},
+    {nombre:"x", puntos:0},
 ];
 
 function mostrarTabla(){
@@ -33,9 +38,9 @@ mostrarTabla();
 const jugadores = {
     "🦈 98 Gang": ["Zmnuel","Mascapitos","Enrico","Oliboil","Feixas"],
     "🔪 69 Hardkors Gang": ["PlayerA","PlayerB","PlayerC"],
-    "🍁 2BLEBETA": ["PlayerA","PlayerB","PlayerC"],
-    "🧊 Do Bronx": ["PlayerA","PlayerB","PlayerC"]
-    "🤬 Peta": ["PlayerA","PlayerB","PlayerC"]
+    "🍁 2BLEBETA": ["JugadorB1","JugadorB2"],
+    "🧊 Do Bronx": ["JugadorD1","JugadorD2"],
+    "🤬 Peta": ["JugadorP1","JugadorP2"]
 };
 
 const equiposHTML = document.querySelectorAll(".equipo");
@@ -52,14 +57,14 @@ equiposHTML.forEach(equipo => {
         const titulo = document.getElementById("tituloEquipo");
         const ventana = document.getElementById("ventanaJugadores");
 
-        // SI YA ESTÁ ABIERTO -> CERRAR
+        
         if(equipoAbierto === nombre){
             ventana.style.display = "none";
             equipoAbierto = null;
             return;
         }
 
-        // MOSTRAR NUEVO
+        
         titulo.textContent = nombre;
         lista.innerHTML = "";
 
@@ -74,8 +79,8 @@ equiposHTML.forEach(equipo => {
 
     });
 
-
 });
+
 
 
 
