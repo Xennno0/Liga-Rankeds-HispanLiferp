@@ -3,7 +3,7 @@ const equipos = [
     {nombre:"🔪 69 Hardkors Gang", puntos:0},
     {nombre:"🍁 2BLEBETA", puntos:0},
     {nombre:"🧊 Do Bronx", puntos:0},
-    {nombre:"🤬 Peta", puntos:0},
+    {nombre:"🤬 Peta", puntos:0}
 ];
 
 function mostrarTabla(){
@@ -76,6 +76,7 @@ equiposHTML.forEach(equipo => {
 
 
 });
+
 
 
 
