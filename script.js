@@ -32,7 +32,8 @@ mostrarTabla();
 const jugadores = {
     "🦈 98 Gang": ["Zmnuel","Mascapitos","Enrico","Oliboil","Feixas"],
     "🔪 69 Hardkors Gang": ["PlayerA","PlayerB","PlayerC"],
-    "x": ["JugadorX1","JugadorX2"]
+    "🍁 2BLEBETA": ["PlayerA","PlayerB","PlayerC"],
+    "🧊 Do Bronx": ["PlayerA","PlayerB","PlayerC"]
 };
 
 const equiposHTML = document.querySelectorAll(".equipo");
@@ -73,5 +74,6 @@ equiposHTML.forEach(equipo => {
 
 
 });
+
 
 
