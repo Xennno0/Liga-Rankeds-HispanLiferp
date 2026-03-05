@@ -3,6 +3,7 @@ const equipos = [
     {nombre:"🔪 69 Hardkors Gang", puntos:0},
     {nombre:"🍁 2BLEBETA", puntos:0},
     {nombre:"🧊 Do Bronx", puntos:0},
+    {nombre:"🤬 Peta", puntos:0},
 ];
 
 function mostrarTabla(){
@@ -34,6 +35,7 @@ const jugadores = {
     "🔪 69 Hardkors Gang": ["PlayerA","PlayerB","PlayerC"],
     "🍁 2BLEBETA": ["PlayerA","PlayerB","PlayerC"],
     "🧊 Do Bronx": ["PlayerA","PlayerB","PlayerC"]
+    "🤬 Peta": ["PlayerA","PlayerB","PlayerC"]
 };
 
 const equiposHTML = document.querySelectorAll(".equipo");
@@ -74,6 +76,7 @@ equiposHTML.forEach(equipo => {
 
 
 });
+
 
 
 
