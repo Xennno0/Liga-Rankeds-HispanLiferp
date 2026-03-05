@@ -40,7 +40,7 @@ const jugadores = {
     "🔪 69 Hardkors Gang": ["PlayerA","PlayerB","PlayerC"],
     "🍁 2BLEBETA": ["JugadorB1","JugadorB2"],
     "🧊 Do Bronx": ["JugadorD1","JugadorD2"],
-    "🤬 Peta": ["𝔍𝔬𝔱𝔞afps","Slaaa  ","! Pxul","Rubidoge","!يوليسيس","._Javi._00","Alpha Pear","Bambydubi "]
+    "🤬 Peta": ["jo𝔱aafps","Slaaa  ","! Pxul","Rubidoge","!يوليسيس","._Javi._00","Alpha Pear","Bambydubi "],
 };
 
 const equiposHTML = document.querySelectorAll(".equipo");
@@ -80,6 +80,7 @@ equiposHTML.forEach(equipo => {
     });
 
 });
+
 
 
 
