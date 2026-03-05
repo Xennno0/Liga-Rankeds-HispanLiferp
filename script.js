@@ -5,7 +5,7 @@ const equipos = [
     {nombre:"🍁 2BLEBETA", puntos:0},
     {nombre:"🧊 Do Bronx", puntos:0},
     {nombre:"🤬 Peta", puntos:0},
-    {nombre:"x", puntos:0},
+    {nombre:"🙊 87 south boyz", puntos:0},
     {nombre:"x", puntos:0},
     {nombre:"x", puntos:0},
     {nombre:"x", puntos:0},
@@ -41,6 +41,7 @@ const jugadores = {
     "🍁 2BLEBETA": ["JugadorB1","JugadorB2"],
     "🧊 Do Bronx": ["JugadorD1","JugadorD2"],
     "🤬 Peta": ["𝔍𝔬𝔱𝔞afps","Slaaa  ","! Pxul","Rubidoge","!يوليسيس","._Javi._00","Alpha Pear","Bambydubi "]
+    "🙊 87 south boyz": ["x"]
 };
 
 const equiposHTML = document.querySelectorAll(".equipo");
@@ -80,6 +81,7 @@ equiposHTML.forEach(equipo => {
     });
 
 });
+
 
 
 
