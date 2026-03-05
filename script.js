@@ -1,5 +1,5 @@
 const equipos = [
-    {nombre:"🦈 98 Gang", puntos:0},
+    {nombre:"🦈 98 Gang", puntos:3},
     {nombre:"🔪 69 Hardkors Gang", puntos:0},
     {nombre:"x", puntos:0},
     {nombre:"x", puntos:0},
@@ -70,5 +70,6 @@ equiposHTML.forEach(equipo => {
         equipoAbierto = nombre;
 
     });
+
 
 });
