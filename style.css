@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#0f172a;
+    color:white;
+}
+
+/* NAVBAR */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background:#020617;
+    border-bottom:1px solid #1e293b;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+/* SECCIONES */
+
+section{
+    padding:40px;
+}
+
+/* TABLA */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th{
+    background:#1e293b;
+    padding:12px;
+}
+
+td{
+    padding:12px;
+    border-bottom:1px solid #1e293b;
+}
+
+tr:hover{
+    background:#1e293b;
+}
+
+/* EQUIPOS */
+
+.equipos{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.equipo{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.ventana{
+    margin-top:20px;
+    background:#020617;
+    padding:20px;
+    border-radius:10px;
+    display:none;
+}
+
+.ventana ul{
+    list-style:none;
+    padding:0;
+}
+
+.ventana li{
+    padding:6px 0;
+    border-bottom:1px solid #1e293b;
+}
+
+.equipo{
+    cursor:pointer;
+}
