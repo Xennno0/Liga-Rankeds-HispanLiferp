@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Enfrentamientos - Liga Ranked</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h1>Liga Ranked</h1>
+    <ul>
+        <li><a href="index.html">Tabla</a></li>
+        <li><a href="index.html#equipos">Equipos</a></li>
+        <li><a href="enfrentamientos.html">Enfrentamientos</a></li>
+    </ul>
+</nav>
+
+<section id="enfrentamientos">
+    <h2>Enfrentamientos</h2>
+    <p style="text-align: center; color: #ffd700; margin-bottom: 20px;">Para actualizar resultados, edita el archivo <code>datos.json</code> en GitHub y haz commit.</p>
+
+    <div class="partido-container" id="partidosContainer">
+        <!-- Los partidos se cargarán aquí -->
+    </div>
+</section>
+            <input type="number" id="puntos2" placeholder="Puntos Equipo 2" min="0" required>
+            
+            <button type="submit">Registrar Enfrentamiento</button>
+<script src="script-enfrentamientos.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "equipos": [
+    "🦈 98 Gang",
+    "🔪 69 Hardkors Gang", 
+    "🍁 2BLEBETA",
+    "🧊 Do Bronx",
+    "🤬 Peta",
+    "🌩️  La 1314"
+  ],
+  "enfrentamientos": [
+    {"equipo1": "🦈 98 Gang", "puntos1": 0, "equipo2": "🔪 69 Hardkors Gang", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🔪 69 Hardkors Gang", "puntos1": 0, "equipo2": "🦈 98 Gang", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🦈 98 Gang", "puntos1": 0, "equipo2": "🍁 2BLEBETA", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🍁 2BLEBETA", "puntos1": 0, "equipo2": "🦈 98 Gang", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🦈 98 Gang", "puntos1": 0, "equipo2": "🧊 Do Bronx", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🧊 Do Bronx", "puntos1": 0, "equipo2": "🦈 98 Gang", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🦈 98 Gang", "puntos1": 0, "equipo2": "🤬 Peta", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🤬 Peta", "puntos1": 0, "equipo2": "🦈 98 Gang", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🦈 98 Gang", "puntos1": 0, "equipo2": "🌩️  La 1314", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🌩️  La 1314", "puntos1": 0, "equipo2": "🦈 98 Gang", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🔪 69 Hardkors Gang", "puntos1": 0, "equipo2": "🍁 2BLEBETA", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🍁 2BLEBETA", "puntos1": 0, "equipo2": "🔪 69 Hardkors Gang", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🔪 69 Hardkors Gang", "puntos1": 0, "equipo2": "🧊 Do Bronx", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🧊 Do Bronx", "puntos1": 0, "equipo2": "🔪 69 Hardkors Gang", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🔪 69 Hardkors Gang", "puntos1": 0, "equipo2": "🤬 Peta", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🤬 Peta", "puntos1": 0, "equipo2": "🔪 69 Hardkors Gang", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🔪 69 Hardkors Gang", "puntos1": 0, "equipo2": "🌩️  La 1314", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🌩️  La 1314", "puntos1": 0, "equipo2": "🔪 69 Hardkors Gang", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🍁 2BLEBETA", "puntos1": 0, "equipo2": "🧊 Do Bronx", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🧊 Do Bronx", "puntos1": 0, "equipo2": "🍁 2BLEBETA", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🍁 2BLEBETA", "puntos1": 0, "equipo2": "🤬 Peta", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🤬 Peta", "puntos1": 0, "equipo2": "🍁 2BLEBETA", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🍁 2BLEBETA", "puntos1": 0, "equipo2": "🌩️  La 1314", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🌩️  La 1314", "puntos1": 0, "equipo2": "🍁 2BLEBETA", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🧊 Do Bronx", "puntos1": 0, "equipo2": "🤬 Peta", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🤬 Peta", "puntos1": 0, "equipo2": "🧊 Do Bronx", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🧊 Do Bronx", "puntos1": 0, "equipo2": "🌩️  La 1314", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🌩️  La 1314", "puntos1": 0, "equipo2": "🧊 Do Bronx", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🤬 Peta", "puntos1": 0, "equipo2": "🌩️  La 1314", "puntos2": 0, "fecha": null, "estado": "pendiente"},
+    {"equipo1": "🌩️  La 1314", "puntos1": 0, "equipo2": "🤬 Peta", "puntos2": 0, "fecha": null, "estado": "pendiente"}
+  ],
+  "puntosEquipos": {
+    "🦈 98 Gang": 0,
+    "🔪 69 Hardkors Gang": 0,
+    "🍁 2BLEBETA": 0,
+    "🧊 Do Bronx": 0,
+    "🤬 Peta": 0,
+    "🌩️  La 1314": 0
+  }
+}

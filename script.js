@@ -1,12 +1,27 @@
-const equipos = [
-    {nombre:"🦈 98 Gang", puntos:0},
-    {nombre:"🔪 69 Hardkors Gang", puntos:0},
-    {nombre:"🍁 2BLEBETA", puntos:0},
-    {nombre:"🧊 Do Bronx", puntos:0},
-];
+// añadir equipos y puntos
+let equipos = [];
+
+// Cargar datos desde datos.json
+async function cargarDatos() {
+    try {
+        const response = await fetch('datos.json');
+        const data = await response.json();
+        equipos = data.equipos.map(nombre => ({ nombre, puntos: data.puntosEquipos[nombre] || 0 }));
+    } catch (error) {
+        console.error('Error cargando datos:', error);
+        // Fallback a datos por defecto
+        equipos = [
+            {nombre:"🦈 98 Gang", puntos:0},
+            {nombre:"🔪 69 Hardkors Gang", puntos:0},
+            {nombre:"🍁 2BLEBETA", puntos:0},
+            {nombre:"🧊 Do Bronx", puntos:0},
+            {nombre:"🤬 Peta", puntos:0},
+            {nombre:"🌩️  La 1314", puntos:0}
+        ];
+    }
+}
 
 function mostrarTabla(){
-
     equipos.sort((a,b)=> b.puntos - a.puntos);
 
     const tabla = document.getElementById("ranking");
@@ -27,13 +42,15 @@ function mostrarTabla(){
 
 }
 
-mostrarTabla();
 
 const jugadores = {
     "🦈 98 Gang": ["Zmnuel","Mascapitos","Enrico","Oliboil","Feixas"],
     "🔪 69 Hardkors Gang": ["PlayerA","PlayerB","PlayerC"],
-    "🍁 2BLEBETA": ["JugadorX1","JugadorX2"]
-    "🧊 Do Bronx": ["JugadorX1","JugadorX2"]
+    "🍁 2BLEBETA": ["JugadorB1","JugadorB2"],
+    "🧊 Do Bronx": ["rayx.17","mario09_28",".l99999","dim.420","jaimeee__00","rogelio1103","icey"
+,"nxthanzz"],
+    "🤬 Peta": ["𝔍𝔬𝔱𝔞afps","Slaaa  ","! Pxul","Rubidoge","!يوليسيس","._Javi._00","Alpha Pear","Bambydubi "],
+    "🌩️  La 1314": ["freevanilla","_hernandeezz_","obsessedwithyou___","ryze.isaac","marcoss2.7"]
 };
 
 const equiposHTML = document.querySelectorAll(".equipo");
@@ -50,14 +67,14 @@ equiposHTML.forEach(equipo => {
         const titulo = document.getElementById("tituloEquipo");
         const ventana = document.getElementById("ventanaJugadores");
 
-        // SI YA ESTÁ ABIERTO -> CERRAR
+        
         if(equipoAbierto === nombre){
             ventana.style.display = "none";
             equipoAbierto = null;
             return;
         }
 
-        // MOSTRAR NUEVO
+        
         titulo.textContent = nombre;
         lista.innerHTML = "";
 
@@ -72,7 +89,12 @@ equiposHTML.forEach(equipo => {
 
     });
 
-
 });
 
+mostrarTabla();
 
+// Cargar datos al inicio
+(async () => {
+    await cargarDatos();
+    mostrarTabla();
+})();
